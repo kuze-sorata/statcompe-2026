@@ -1,0 +1,2 @@
+experiment_id,date,status,question,hypothesis,data,method,key_result,decision,notes_path
+exp001,2026-06-01,planned,テーマ候補の探索,未定,SSDSE,探索的分析,,pending,experiments/exp001.md

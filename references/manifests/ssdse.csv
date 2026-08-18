@@ -1,0 +1,14 @@
+﻿dataset,kind,filename,url,retrieved_at,sha256,bytes
+A,data,SSDSE-A-2026.csv,https://www.nstac.go.jp/files/SSDSE-A-2026.csv,2026-08-17T07:49:53.407479+00:00,471ad23bd8f9a7cc01f0c684b9762934e855d2400e3a77608a12171018fc655a,940365
+A,documentation,kaisetsu-A-2026.pdf,https://www.nstac.go.jp/files/kaisetsu-A-2026.pdf,2026-08-17T07:49:53.713767+00:00,052f09a0ae927fc33ae286bc29c4e12243c17d50075c63ba93aed43c057ab6a6,1466470
+B,data,SSDSE-B-2026.csv,https://www.nstac.go.jp/files/SSDSE-B-2026.csv,2026-08-17T07:49:54.076883+00:00,0fdbe5f603bb8e1ee72d83cca77e674cf9b45865d88c8f4fda5eb8046ea6f463,359821
+B,documentation,kaisetsu-B-2026.pdf,https://www.nstac.go.jp/files/kaisetsu-B-2026.pdf,2026-08-17T07:49:54.324893+00:00,f24e6f597d6a5f80c0ef392ed37c12823c3e62c0450fee29d69b8670a4f72409,1323786
+C,data,SSDSE-C-2026.csv,https://www.nstac.go.jp/files/SSDSE-C-2026.csv,2026-08-17T07:49:54.527284+00:00,bcfd382991c54e87442cfef9b73091fda1fa56572c3694488a4043263088f35c,59932
+C,documentation,kaisetsu-C-2026.pdf,https://www.nstac.go.jp/files/kaisetsu-C-2026.pdf,2026-08-17T07:49:54.785426+00:00,583605a2cdf4a4a5ff5697b02b94db697affe71effc76a4b4e83b78ff18df353,1459436
+D,data,SSDSE-D-2023.csv,https://www.nstac.go.jp/files/SSDSE-D-2023.csv,2026-08-17T07:49:54.983106+00:00,35ff4c9240c7877a24eb68788d82e6f6b55fd4be1f6c596cca72892c14d4b496,78503
+D,documentation,kaisetsu-D-2023.pdf,https://www.nstac.go.jp/files/kaisetsu-D-2023.pdf,2026-08-17T07:49:55.258147+00:00,7345fc376be1753d8f2edb4fdc2d54a8bb76b4c6ca2bdc9aa94251cb663122cc,1597894
+E,data,SSDSE-E-2026.csv,https://www.nstac.go.jp/files/SSDSE-E-2026.csv,2026-08-17T07:49:55.450089+00:00,d607e5faab94ad3c19f54222dcef2759a483d0e4a265cf2e9afc39907a6ac5df,28733
+E,documentation,kaisetsu-E-2026.pdf,https://www.nstac.go.jp/files/kaisetsu-E-2026.pdf,2026-08-17T07:49:55.698325+00:00,835f77ab7325cd5163502026f1fa9196d3a774d7cf455a93d87070f10223f412,1312905
+F,data,SSDSE-F-2023v3.csv,https://www.nstac.go.jp/files/SSDSE-F-2023v3.csv,2026-08-17T07:49:56.056680+00:00,92ea573bc650dddcb082474f8b14b76e8c28f0371a5b17811217b2a43d059a02,129711
+F,documentation,kaisetsu-F-2023v3.pdf,https://www.nstac.go.jp/files/kaisetsu-F-2023v3.pdf,2026-08-17T07:49:56.326621+00:00,8cd44588f534b5f4ff1fb10c86b6c7f2248b5e9291f282de8b60d86a28df8f1a,1426590
+ALL,documentation,SSDSE_ITEM_2025.xlsx,https://www.nstac.go.jp/files/SSDSE_ITEM_2025.xlsx,2026-08-17T07:49:56.465017+00:00,078d648295a1c95c056754619f4292bb9128b848b24925f44e31d34c9001904a,40779

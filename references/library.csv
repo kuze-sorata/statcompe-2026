@@ -1,0 +1,4 @@
+reference_id,type,year,authors,title,venue,url,local_path,tags,status,used_for,notes_path
+official-call-2026,official,2026,統計データ分析コンペティション事務局,2026年度 論文募集要項,統計データ分析コンペティション,https://www.nstac.go.jp/statcompe/call/,references/official/2026/bosyuyoukou-2026.pdf,応募要件,confirmed,要件確認,
+ssdse-official,official,2026,独立行政法人統計センター,教育用標準データセット SSDSE,統計センター,https://www.nstac.go.jp/use/literacy/ssdse/,data/raw/ssdse/,データ,confirmed,分析データ,
+awards-2018-2025,official,2025,統計データ分析コンペティション事務局,2018〜2025年度 受賞論文,統計データ分析コンペティション,https://www.nstac.go.jp/statcompe/past/,references/awards/raw/,受賞論文,confirmed,ベンチマーク,references/awards/cross-year-synthesis.md

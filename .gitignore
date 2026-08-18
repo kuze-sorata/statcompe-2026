@@ -1,6 +1,23 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+tmp/
+.ruff_cache/
+.pytest_cache/
+pytest-cache-files-*/
+*.py[cod]
+
+# 応募者の個人情報を含むローカルファイル
+project/*.local.md
+reports/submission/*
+!reports/submission/README.md
+
+# 公開元から再取得できる配布原本・論文PDF
+references/**/*.pdf
+references/**/*.docx
+references/**/*.xlsx
+references/**/*.pptx
+references/awards/text/
 
 data/raw/*
 data/external/*
@@ -9,4 +26,3 @@ data/processed/*
 !data/raw/.gitkeep
 !data/external/.gitkeep
 !data/processed/.gitkeep
-

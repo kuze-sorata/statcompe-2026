@@ -12,12 +12,24 @@
 
 ```text
 statcompe-2026/
+├── project/
+│   ├── requirements.md
+│   └── registration.local.md
+├── references/
+│   ├── official/
+│   │   ├── 2026/
+│   │   └── ssdse/
+│   ├── awards/
+│   ├── manifests/
+│   ├── library.csv
+│   └── bibliography.bib
 ├── data/
 │   ├── raw/
 │   ├── external/
 │   └── processed/
 ├── notebooks/
 ├── experiments/
+├── session-logs/
 ├── reports/
 ├── figures/
 ├── tables/
@@ -53,3 +65,29 @@ statcompe-2026/
 6. `experiments/` に試行錯誤を記録する
 7. `reports/` で論文構成、要旨、参考文献を管理する
 
+## Project Requirements
+
+- コンペの応募条件、提出要件、進め方は `project/requirements.md` で管理する
+- 登録メールアドレスなどの個人情報は、Git管理対象外の `project/registration.local.md` で管理する
+- 公式の募集要項と提出テンプレートは `references/official/2026/` で原本を保管する
+
+## Start Here
+
+1. `project/requirements.md` で応募・提出要件を確認する
+2. `project/workflow.md` で役割分担と日次の進め方を確認する
+3. `references/ssdse_catalog.csv` で利用可能なSSDSE項目を探す
+4. `references/awards/index.csv` と `references/awards/cross-year-synthesis.md` で過去受賞論文を参照する
+5. 分析ごとに `experiments/registry.csv` と実験Markdownを更新する
+6. 作業終了時に `session-logs/` を更新する
+
+## Rebuild Commands
+
+```powershell
+uv sync
+uv run python scripts/download_ssdse.py
+uv run python scripts/build_ssdse_catalog.py
+uv run python scripts/download_awards.py
+uv run python scripts/build_award_corpus.py
+uv run pytest -q
+uv run ruff check .
+```

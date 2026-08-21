@@ -13,6 +13,9 @@
 ```text
 statcompe-2026/
 ├── project/
+│   ├── STATUS.md
+│   ├── selected-theme.md
+│   ├── workflow.md
 │   ├── requirements.md
 │   └── registration.local.md
 ├── references/
@@ -73,12 +76,13 @@ statcompe-2026/
 
 ## Start Here
 
-1. `project/requirements.md` で応募・提出要件を確認する
-2. `project/workflow.md` で役割分担と日次の進め方を確認する
-3. `references/ssdse_catalog.csv` で利用可能なSSDSE項目を探す
-4. `references/awards/index.csv` と `references/awards/cross-year-synthesis.md` で過去受賞論文を参照する
-5. 分析ごとに `experiments/registry.csv` と実験Markdownを更新する
-6. 作業終了時に `session-logs/` を更新する
+1. `project/STATUS.md` で現在地、未決定事項、次の完了条件を確認する
+2. `project/requirements.md` で応募・提出要件を確認する
+3. `project/workflow.md` で役割分担と日次の進め方を確認する
+4. `references/ssdse_catalog.csv` で利用可能なSSDSE項目を探す
+5. `references/awards/index.csv` と `references/awards/cross-year-synthesis.md` で過去受賞論文を参照する
+6. 分析ごとに `experiments/registry.csv` と実験Markdownを更新する
+7. 作業終了時に `project/STATUS.md` を更新し、作業履歴を `session-logs/` に残す
 
 ## Rebuild Commands
 

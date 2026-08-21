@@ -7,10 +7,10 @@
 
 ## 1日3時間の標準セッション
 
-1. 10分: 前回ログと未解決点を確認し、本日の判断目標を一つ定める
+1. 10分: `project/STATUS.md` の現在地と未決定事項を確認し、本日の判断目標を一つ定める
 2. 120分: Codexが実装・検証し、結果を小分けに提示する
 3. 40分: ユーザーが重要な出力を理解し、次に深掘りする枝を選ぶ
-4. 10分: セッションログ、実験台帳、次回の開始点を更新する
+4. 10分: 実験台帳と作業履歴を記録し、`project/STATUS.md` の現在地と次の完了条件を更新する
 
 ## 分析ファネル
 
@@ -28,5 +28,6 @@
 - データ: `references/manifests/` と `references/library.csv`
 - 分析: `experiments/registry.csv` と各実験Markdown
 - 図表: `figures/`、`tables/` と生成コード
-- 判断: `session-logs/`
+- 現在地: `project/STATUS.md`
+- 判断の経緯と作業履歴: `session-logs/`
 - 論文: `reports/submission/` のローカル正本

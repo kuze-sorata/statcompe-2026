@@ -15,6 +15,7 @@
 - `index.csv`: 論文単位のメタデータ、本文抽出量、自動テーマ・手法タグ
 - `notes/<year>/<division>/`: 1論文1ファイルの読書カード
 - `cross-year-synthesis.md`: 年度横断の読み取りと、自分の分析への含意
+- `idea-catalog.md`: 全159本を目的変数・説明材料・SSDSEの役割・問いで比較する発想索引
 - `raw/`: 公式PDF原本（Git管理外）
 - `text/`: PDFからの抽出本文（Git管理外）
 
